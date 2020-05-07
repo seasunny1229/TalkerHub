@@ -18,4 +18,9 @@ public class PersonController {
 	public Person find(@RequestParam(value="id", defaultValue="1") int id) {
 		return personService.selectByPrimaryKey(id);
 	}
+	
+	@GetMapping("hello")
+	public String hello() {
+		return "hello world!";
+	}
 }
