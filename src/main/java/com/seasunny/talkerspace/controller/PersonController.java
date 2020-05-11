@@ -19,7 +19,7 @@ public class PersonController {
 		return personService.selectByPrimaryKey(id);
 	}
 	
-	@GetMapping("hello")
+	@GetMapping("/hello")
 	public String hello() {
 		return "hello world!";
 	}
