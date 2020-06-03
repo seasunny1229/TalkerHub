@@ -5,12 +5,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.seasunny.talkerspace.mapper")
+@MapperScan("com.seasunny.talkerspace.training.mapper")
 public class TalkerhubApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TalkerhubApplication.class, args);
-		
+	
 	}
 
 }

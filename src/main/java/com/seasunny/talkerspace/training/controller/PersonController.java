@@ -1,12 +1,13 @@
-package com.seasunny.talkerspace.controller;
+package com.seasunny.talkerspace.training.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.seasunny.talkerspace.bean.Person;
-import com.seasunny.talkerspace.service.PersonService;
+import com.seasunny.talkerspace.training.bean.Person;
+import com.seasunny.talkerspace.training.service.PersonService;
+
 
 @RestController
 public class PersonController {

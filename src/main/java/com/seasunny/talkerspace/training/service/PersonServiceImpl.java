@@ -1,10 +1,10 @@
-package com.seasunny.talkerspace.service;
+package com.seasunny.talkerspace.training.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.seasunny.talkerspace.bean.Person;
-import com.seasunny.talkerspace.mapper.PersonMapper;
+import com.seasunny.talkerspace.training.bean.Person;
+import com.seasunny.talkerspace.training.mapper.PersonMapper;
 
 @Service
 public class PersonServiceImpl implements PersonService {

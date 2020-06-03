@@ -1,4 +1,4 @@
-package com.seasunny.talkerspace.bean;
+package com.seasunny.talkerspace.training.bean;
 
 public class Person {
 	

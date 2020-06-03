@@ -1,8 +1,8 @@
-package com.seasunny.talkerspace.mapper;
+package com.seasunny.talkerspace.training.mapper;
 
 import org.apache.ibatis.annotations.Select;
 
-import com.seasunny.talkerspace.bean.Person;
+import com.seasunny.talkerspace.training.bean.Person;
 
 public interface PersonMapper {
 
